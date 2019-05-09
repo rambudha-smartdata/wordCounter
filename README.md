@@ -9,3 +9,6 @@
 - NODE_ENV
 - MONGODB_URI
 - PORT
+
+- ```cd wordCounterFrontend && ng serve``` for frontend
+- ```cd wordCounterBackend && npm run prod``` for bakcend
