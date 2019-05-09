@@ -1,9 +1,10 @@
 import express from 'express';
-import Frequency from '../config/model';
+import Frequency from '../model';
 
 const router = express.Router();
 
 router.get('/getdata', async (req, res) => {
+  console.log('detd');
   try {
     const data = await Frequency.find().sort({ word: 1 });
     if (data.length > 0) {
