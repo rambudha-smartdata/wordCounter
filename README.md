@@ -15,4 +15,4 @@
 
 
 - ```cd wordCounterFrontend && ng serve``` for frontend
-- ```cd wordCounterBackend && npm run prod``` for bakcend
+- ```cd wordCounterBackend && npm run prod``` for backend
